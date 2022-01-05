@@ -21,7 +21,7 @@ public class PostmanApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("another text"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
